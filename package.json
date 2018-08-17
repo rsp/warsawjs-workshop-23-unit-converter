@@ -1,5 +1,5 @@
 {
-  "name": "warsawjs-workshop-22-unit-converter",
+  "name": "warsawjs-workshop-23-unit-converter",
   "version": "0.0.0",
   "description": "Unit Converter Project for WarsawJS Workshop 22 Group 1",
   "main": "index.js",
@@ -15,7 +15,11 @@
     "tap-cover": "tap tests/tap/*.test.js --coverage && echo TAP OK || (echo TAP ERROR; false)",
     "tape": "tape tests/tape/*.test.js && echo TAPE OK || (echo TAPE ERROR; false)",
     "mocha": "mocha tests/mocha/*.test.js && echo MOCHA OK || (echo MOCHA ERROR; false)",
-    "test": "npm run lint && npm run tape && npm run tap && npm run mocha && echo NPM TEST OK || (echo NPM TEST ERROR; false)"
+    "testcafe": "testcafe chrome:headless tests/testcafe/test.js --app 'npm start' && echo TESTCAFE OK || (echo TESTCAFE ERROR; false)",
+    "testcafe:gui": "testcafe chrome tests/testcafe/test.js --app 'npm start' && echo TESTCAFE:GUI OK || (echo TESTCAFE:GUI ERROR; false)",
+    "test:gui": "npm run lint && npm run tape && npm run tap && npm run mocha && npm run testcafe && cho NPM TEST OK || (echo NPM TEST ERROR; false)",
+    "test:nolint": "npm run tape && npm run tap && npm run mocha && npm run testcafe && echo NPM TEST OK || (echo NPM TEST ERROR; false)",
+    "test": "npm run lint && npm run tape && npm run tap && npm run mocha && npm run testcafe && echo NPM TEST OK || (echo NPM TEST ERROR; false)"
   },
   "jest": {
     "testRegex": "\\.test\\.js$",
@@ -25,14 +29,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rsp/warsawjs-workshop-22-unit-converter.git"
+    "url": "git+https://github.com/rsp/warsawjs-workshop-23-unit-converter.git"
   },
   "author": "Rafał Pocztarski <r.pocztarski@gmail.com> (http://pocztarski.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rsp/warsawjs-workshop-22-unit-converter/issues"
+    "url": "https://github.com/rsp/warsawjs-workshop-23-unit-converter/issues"
   },
-  "homepage": "https://github.com/rsp/warsawjs-workshop-22-unit-converter#readme",
+  "homepage": "https://github.com/rsp/warsawjs-workshop-23-unit-converter#readme",
   "dependencies": {
     "async": "^2.6.1",
     "body-parser": "^1.18.3",
@@ -66,6 +70,7 @@
     "swagger-ui-express": "^3.0.10",
     "tap": "^12.0.1",
     "tape": "^4.9.1",
+    "testcafe": "^0.21.1",
     "winston": "^3.0.0"
   }
 }
