@@ -345,7 +345,7 @@ End-to-end tests
 
 * Add end-to-end tests that make sure that all required buttons are present
 
-* Add end-to-end tests that make sure that clicking buttons result in populating appopriate fields
+* Add end-to-end tests that make sure that clicking buttons result in populating appropriate fields
 
 * Add end-to-end tests that make sure that clicking buttons give correct results
 
@@ -355,7 +355,7 @@ End-to-end tests
 
 * Create failing end-to-end tests for nonexistent functionality of length conversion
 
-* Make sure that you cover everything needed to make sure that the length and weight conversion works correctly when implemented
+* Make sure that you cover everything needed to make sure that the length conversion works correctly when implemented
 
 * Implement the weight conversion to pass the tests
 
