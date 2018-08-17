@@ -3,6 +3,7 @@ Unit Converter
 Project for WarsawJS Workshop 23 Group 1
 -
 [![Build Status](https://travis-ci.org/rsp/warsawjs-workshop-23-unit-converter.svg?branch=master)](https://travis-ci.org/rsp/warsawjs-workshop-23-unit-converter)
+[![CircleCI](https://circleci.com/gh/rsp/warsawjs-workshop-23-unit-converter.svg?style=svg)](https://circleci.com/gh/rsp/warsawjs-workshop-23-unit-converter)
 
 This project is based on the project from Workshop 22:
 
@@ -18,6 +19,7 @@ for greatly improving the frontend appearance!
 ([PR #1](https://github.com/rsp/warsawjs-workshop-22-unit-converter/pull/1))
 
 This time we will focus on end-to-end tests for this project
+using TestCafe (see below for links and resources)
 and we will add a few more features in the process.
 
 Getting Started
@@ -176,81 +178,68 @@ General Testing
 =
 
 Mocha
-=
-
+-
 https://mochajs.org/
 
 Jest
 -
-
 https://jestjs.io/
 
 Jasmine
 -
-
 https://jasmine.github.io/
 
 Tape
 -
-
 https://github.com/substack/tape
 
 Tap
 -
-
 https://www.node-tap.org/
+
+---
 
 End-to-end testing
 =
 
 TestCafe
 -
-
 https://devexpress.github.io/testcafe/
 
 CasperJS
 -
-
 http://casperjs.org/
 
 Nightwatch.js
 -
-
 http://nightwatchjs.org/
 
 CodeceptJS
 -
-
 https://codecept.io/
 
 WebdriverIO
 -
-
 http://webdriver.io/
 
 Puppeteer
 -
-
 https://developers.google.com/web/tools/puppeteer/
 
 Protractor
 -
-
 http://www.protractortest.org/
 
 Nightmare
 -
-
 http://www.nightmarejs.org/
 
 PhantomJS
 -
-
 http://phantomjs.org/
 
 Selenium
 -
-
 https://www.seleniumhq.org/
 
 ---
@@ -287,6 +276,83 @@ https://www.virtualbox.org/
 Vagrant
 -
 https://www.vagrantup.com/
+
+---
+
+Tutorials
+=
+
+TestCafe - Getting Started
+-
+http://devexpress.github.io/testcafe/documentation/getting-started/
+
+Functional Testing with TestCafe
+-
+https://mherman.org/blog/2017/03/19/functional-testing-with-testcafe/
+
+End-to-End Testing for Your Web App With TestCafe
+-
+https://dzone.com/articles/end-to-end-testing-for-your-web-app-with-open-sour
+
+TestCafe: Easier End-to-end Web App Testing with Node.js
+-
+https://www.sitepoint.com/testcafe-easier-end-end-web-app-testing-node-js/
+
+Better E2E testing with TestCafe
+-
+https://medium.com/@mwq27/better-e2e-testing-with-testcafe-666aacf2a94e
+
+Integrating TestCafe with CircelCI
+-
+http://devexpress.github.io/testcafe/documentation/recipes/integrating-testcafe-with-ci-systems/circleci.html
+
+Running Tests in Firefox and Chrome Using Travis CI
+-
+https://github.com/DevExpress/testcafe/blob/master/docs/articles/documentation/recipes/integrating-testcafe-with-ci-systems/travis.md
+
+Selenium WebDriver Explained
+-
+https://jobs.zalando.com/tech/blog/selenium-webdriver-explained/
+
+Quick Start with PhantomJS
+-
+http://phantomjs.org/quick-start.html
+
+CasperJS Quickstart
+-
+http://docs.casperjs.org/en/latest/quickstart.html
+
+Learn Nightwatch: Complete Beginners Tutorial:
+-
+https://github.com/dwyl/learn-nightwatch
+
+CodeceptJS QuickStart
+-
+https://codecept.io/quickstart/
+
+WebdriverIO - Developer Guide
+-
+http://webdriver.io/v4.4/guide.html
+
+Puppeteer Overview
+-
+https://developers.google.com/web/tools/puppeteer/
+
+Protractor Getting Started
+-
+https://github.com/angular/protractor/blob/master/docs/getting-started.md
+
+Cucumber Introduction
+-
+https://docs.cucumber.io/guides/overview/
+
+Use Nightmare.js to Automate Headless Browsing
+-
+https://www.linode.com/docs/development/nodejs/use-nightmarejs-to-automate-headless-browsing/
+
+Quick Start with PhantomJS
+-
+http://phantomjs.org/quick-start.html
 
 ---
 
