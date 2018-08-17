@@ -3,7 +3,6 @@ Unit Converter
 Project for WarsawJS Workshop 23 Group 1
 -
 [![Build Status](https://travis-ci.org/rsp/warsawjs-workshop-23-unit-converter.svg?branch=master)](https://travis-ci.org/rsp/warsawjs-workshop-23-unit-converter)
-[![CircleCI](https://circleci.com/gh/rsp/warsawjs-workshop-23-unit-converter.svg?style=svg)](https://circleci.com/gh/rsp/warsawjs-workshop-23-unit-converter)
 
 This project is based on the project from Workshop 22:
 
@@ -359,7 +358,7 @@ End-to-end tests
 
 * Implement the weight conversion to pass the tests
 
-* Implement the length units conversion with no end-to-end tests
+* Implement the length units conversion with no end-to-end tests written yet
 
 * Add end-to-end tests for the length units conversion after it is implemented
 

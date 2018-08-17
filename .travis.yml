@@ -1,12 +1,25 @@
 {
   "language": "node_js",
   "node_js": "10",
+  "dist": "trusty",
+  "sudo": "required",
+  "apt": {
+    "sources": [
+      "google-chrome"
+    ],
+    "packages": [
+      "google-chrome-stable",
+      "fluxbox"
+    ]
+  },
+  "addons": {
+  },
   "services": [
-    "redis-server"
   ],
   "env": [
   ],
   "before_install": [
+    "stty cols 80",
     "npm run sysinfo",
     "npm run versions",
     "npm config set spin false"
@@ -16,6 +29,10 @@
     "npm run npmls"
   ],
   "before_script": [
+    "export DISPLAY=:99.0",
+    "sh -e /etc/init.d/xvfb start",
+    "sleep 3",
+    "fluxbox >/dev/null 2>&1 &"
   ],
   "script": [
     "npm run test"
