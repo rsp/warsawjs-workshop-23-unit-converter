@@ -1,29 +1,25 @@
 Unit Converter
 =
-Project for WarsawJS Workshop 22 Group 1
+Project for WarsawJS Workshop 23 Group 1
 -
-[![Build Status](https://travis-ci.org/rsp/warsawjs-workshop-22-unit-converter.svg?branch=master)](https://travis-ci.org/rsp/warsawjs-workshop-22-unit-converter)
-[![CircleCI](https://circleci.com/gh/rsp/warsawjs-workshop-22-unit-converter.svg?style=svg)](https://circleci.com/gh/rsp/warsawjs-workshop-22-unit-converter)
+[![Build Status](https://travis-ci.org/rsp/warsawjs-workshop-23-unit-converter.svg?branch=master)](https://travis-ci.org/rsp/warsawjs-workshop-23-unit-converter)
+[![CircleCI](https://circleci.com/gh/rsp/warsawjs-workshop-23-unit-converter.svg?style=svg)](https://circleci.com/gh/rsp/warsawjs-workshop-23-unit-converter)
 
-Special Thanks
--
+This project is based on the project from Workshop 22:
+
+* https://github.com/rsp/warsawjs-workshop-22-unit-converter
+
+During Workshop 22 we developed a project that converts
+currencies using NBP exchange rates and temperature units
+and we added several unit tests.
+
 Special thanks to
 **[Ela Mościcka](https://github.com/ElaMoscicka)** 🏅🏆🌹
 for greatly improving the frontend appearance!
 ([PR #1](https://github.com/rsp/warsawjs-workshop-22-unit-converter/pull/1))
 
-### Before: 😒👎
-
-![Frontend Before](img/frontend-before.png)
-
-### After: 😊👍
-
-![Frontend After](img/frontend-after.png)
-
-How To Create a Pull Request
--
-See my tutorial:
-[How to create a Pull Request on GitHub](https://gist.github.com/rsp/8e565895df24c46ee80cfaac68d05e64)
+This time we will focus on end-to-end tests for this project
+and we will add a few more features in the process.
 
 Getting Started
 -
@@ -34,13 +30,13 @@ Getting Started
 2. Clone your fork:
 
 ```sh
-git clone git@github.com:YOUR_USERNAME/warsawjs-workshop-22-unit-converter.git
+git clone git@github.com:YOUR_USERNAME/warsawjs-workshop-23-unit-converter.git
 ```
 
 3. Enter the project:
 
 ```sh
-cd warsawjs-workshop-22-unit-converter
+cd warsawjs-workshop-23-unit-converter
 ```
 
 4. Install dependencies:
@@ -52,6 +48,11 @@ npm i
 5. Go to the workshop
 
 6. Have fun!
+
+How To Create a Pull Request
+-
+See my tutorial:
+[How to create a Pull Request on GitHub](https://gist.github.com/rsp/8e565895df24c46ee80cfaac68d05e64)
 
 ---
 
@@ -66,6 +67,8 @@ License
 MIT License (Expat). See [LICENSE.md](LICENSE.md) for details.
 
 ---
+
+Useful resources:
 
 Editors
 =
@@ -125,20 +128,14 @@ Linters
 
 ESLint
 -
-(12M/month)
-
 https://eslint.org/
 
 JSHint
 -
-(2M/month)
-
 http://jshint.com/
 
 JSLint
 -
-(100k/month, the original)
-
 http://www.jslint.com/
 
 ---
@@ -176,47 +173,86 @@ https://www.npmjs.com/browse/keyword/eslintconfig
 
 ---
 
-Testing
+General Testing
 =
 
 Mocha
 =
-(1.9M/week)
 
-* https://mochajs.org/
-* https://github.com/mochajs/mocha
-* https://www.npmjs.com/package/mocha
+https://mochajs.org/
 
 Jest
 -
-(1.6M/week)
 
-* https://jestjs.io/
-* https://github.com/facebook/jest
-* https://www.npmjs.com/package/jest
+https://jestjs.io/
 
 Jasmine
 -
-(750k/week)
 
-* https://jasmine.github.io/
-* https://github.com/jasmine/jasmine
-* https://www.npmjs.com/package/jasmine
+https://jasmine.github.io/
 
 Tape
 -
-(275k/week)
 
-* https://github.com/substack/tape
-* https://www.npmjs.com/package/tape
+https://github.com/substack/tape
 
 Tap
 -
-(59k/week)
 
-* https://www.node-tap.org/
-* https://github.com/tapjs/node-tap
-* https://www.npmjs.com/package/tap
+https://www.node-tap.org/
+
+End-to-end testing
+=
+
+TestCafe
+-
+
+https://devexpress.github.io/testcafe/
+
+CasperJS
+-
+
+http://casperjs.org/
+
+Nightwatch.js
+-
+
+http://nightwatchjs.org/
+
+CodeceptJS
+-
+
+https://codecept.io/
+
+WebdriverIO
+-
+
+http://webdriver.io/
+
+Puppeteer
+-
+
+https://developers.google.com/web/tools/puppeteer/
+
+Protractor
+-
+
+http://www.protractortest.org/
+
+Nightmare
+-
+
+http://www.nightmarejs.org/
+
+PhantomJS
+-
+
+http://phantomjs.org/
+
+Selenium
+-
+
+https://www.seleniumhq.org/
 
 ---
 
@@ -255,8 +291,10 @@ https://www.vagrantup.com/
 
 ---
 
-Tasks
+Workshop 22 Tasks
 =
+
+Here are the original tasks from Workshop 22:
 
 Temperature conversion
 -
@@ -290,14 +328,70 @@ The API documentation is available on:
 Continuous Integration
 -
 
-Configure one ofe the CI systems to run your tests automatically
+Configure one of the CI systems to run your tests automatically
 and add correct build status badges to the README.
+
+Workshop 23 Tasks
+=
+
+Here are the new tasks that we will focus on during this workshop:
+
+End-to-end tests
+-
+
+* Add end-to-end tests that make sure that all required information is present
+
+* Add end-to-end tests that make sure that all required text fields are present
+
+* Add end-to-end tests that make sure that all required buttons are present
+
+* Add end-to-end tests that make sure that clicking buttons result in populating appopriate fields
+
+* Add end-to-end tests that make sure that clicking buttons give correct results
+
+* Add end-to-end tests for the project using the same test strategy as the unit tests present in the project
+
+* Add end-to-end tests that test that calcuation still work after clicking buttons many times
+
+* Create failing end-to-end tests for nonexistent functionality of length conversion
+
+* Make sure that you cover everything needed to make sure that the length and weight conversion works correctly when implemented
+
+* Implement the weight conversion to pass the tests
+
+* Implement the length units conversion with no end-to-end tests
+
+* Add end-to-end tests for the length units conversion after it is implemented
+
+* Decide if you think it's better to start with tests or the implementation and implement a new conversion of your choice with end-to-end tests using the order that you prefer
 
 Extra tasks
 =
 
 For anyone who finished early there are some additional tasks
 in no particular order:
+
+End-to-end tests
+-
+
+* Refactor the end-to-end tests in the Warmup project to cover all possible calculations:
+  * https://github.com/rsp/warsawjs-workshop-23-warmup
+
+* Refactor the implementation of the Warmup project to use a different UI and still pass the end-to-end tests
+
+* Refactor the implementation of the Warmup project to use a different logic and still pass the end-to-end tests
+
+Linter
+-
+
+* Make sure that all of the code complies with the linter with provided configuration or change the linter configuration for the style guide of your choice
+
+Unit tests
+-
+
+* Add unit tests for the new features added during this workshop using the framewok of your choice
+* Add unit tests using at least two different test frameworks
+* Try to maximize the test coverage
 
 Caching
 -
