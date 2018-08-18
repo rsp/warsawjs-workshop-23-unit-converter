@@ -4,6 +4,8 @@ Project for WarsawJS Workshop 23 Group 1
 -
 [![Build Status](https://travis-ci.org/rsp/warsawjs-workshop-23-unit-converter.svg?branch=master)](https://travis-ci.org/rsp/warsawjs-workshop-23-unit-converter)
 [![CircleCI](https://circleci.com/gh/rsp/warsawjs-workshop-23-unit-converter.svg?style=svg)](https://circleci.com/gh/rsp/warsawjs-workshop-23-unit-converter)
+<br>
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 This project is based on the project from Workshop 22:
 
@@ -16,7 +18,7 @@ and we added several unit tests.
 Special thanks to
 **[Ela Mościcka](https://github.com/ElaMoscicka)** 🏅🏆🌹
 for greatly improving the frontend appearance!
-([PR #1](https://github.com/rsp/warsawjs-workshop-22-unit-converter/pull/1))
+(see [screenshots](https://github.com/rsp/warsawjs-workshop-22-unit-converter#special-thanks))
 
 This time we will focus on end-to-end tests for this project
 using TestCafe (see below for links and resources)
