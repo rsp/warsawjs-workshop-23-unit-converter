@@ -176,6 +176,19 @@ https://www.npmjs.com/browse/keyword/eslintconfig
 
 ---
 
+NBP API
+=
+
+Documentation
+-
+http://api.nbp.pl/en.html
+
+JSON Example
+-
+http://api.nbp.pl/api/exchangerates/rates/a/usd/2012-01-02/?format=json
+
+---
+
 General Testing
 =
 
@@ -355,6 +368,59 @@ https://www.linode.com/docs/development/nodejs/use-nightmarejs-to-automate-headl
 Quick Start with PhantomJS
 -
 http://phantomjs.org/quick-start.html
+
+Avoiding problems with JavaScript's weird decimal calculations
+-
+https://stackoverflow.com/a/5037927/613198
+
+---
+
+TestCafe
+=
+
+Website
+-
+https://devexpress.github.io/testcafe/
+
+Getting Started
+-
+http://devexpress.github.io/testcafe/documentation/getting-started/
+
+Documentation
+-
+https://devexpress.github.io/testcafe/documentation/
+
+Examples
+-
+https://github.com/DevExpress/testcafe/tree/master/examples
+
+Continuous Integration
+-
+https://testcafe.devexpress.com/Documentation/Using_TestCafe/Continuous_Integration/
+
+Page Model
+-
+http://devexpress.github.io/testcafe/documentation/recipes/using-page-model.html
+
+GitHub
+-
+https://github.com/DevExpress/testcafe
+
+npm
+-
+https://www.npmjs.com/package/testcafe
+
+Issue: Stop test task on first failed test (`--bail`)
+-
+https://github.com/DevExpress/testcafe/issues/1323
+
+Commit: Implemented '--stop-on-first-fail' option
+-
+https://github.com/miherlosev/testcafe/commit/fd4b7647c88d48525cc53b18c616232a3fdaab10
+
+innerText vs. textContent
+-
+https://kellegous.com/j/2013/02/27/innertext-vs-textcontent/
 
 ---
 
